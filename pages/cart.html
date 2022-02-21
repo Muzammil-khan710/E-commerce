@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://mk-ui.netlify.app/styles.css" />
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-contents">
+          <a class="link-home-page link" href="/index.html"> Mkart </a>
+          <input class="input" type="text" placeholder="Search" />
+  
+          <a href="/pages/cart.html"
+            ><img
+              class="icon-navbar"
+              src="https://api.iconify.design/mdi:cart.svg?color=currentColor"
+              alt="cart"
+          /></a>
+  
+          <a href="/pages/wishlist.html"
+            ><img
+              class="icon-navbar"
+              src="https://api.iconify.design/ph:heart-fill.svg?color=currentColor"
+              alt="wishlist"
+          /></a>
+
+          <a class="link" href="/pages/login.html">Login</a>
+          <a class="link" href="#">Logout</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="left-container">
+          <h2>Filters</h2>
+          <input class="range" type="range" min="100" max="2000" value="500" />
+          <p>price: <span class="c-dblue" >500</span></p>
+    
+          <p>sort by</p>
+          <div class="checkbox-container">
+            <span>High to low <input class="checkbox" type="checkbox" /> </span>
+            <span>Low to high<input class="checkbox" type="checkbox" /> </span>
+            <span>Rating<input class="checkbox" type="checkbox" /> </span>
+            <span>Trending<input class="checkbox" type="checkbox" /> </span>
+          </div>
+        </div>
+
+        <div class="input-container">
+            <h1>Your Cart</h1>
+
+            <div class="cart-container">  
+            <div class="card">
+                <div class="horizontal-card cart-card">
+                <img class="cart-img" src="/assets/images/men-shirt.jpg" alt="shirt">
+                <div class="horizontal-card-contents">
+                    <h3>Men shirt</h3>
+                    <h4 class="t-cntr">Price: Rs.400</h4>
+                    <p class="t-cntr">This is men's shirt</p>
+                <div class="card-btn-container h-btn">
+                    <button class="btn green">Buy</button>
+                    <button class="btn outline-red">Wishlist</button>
+                </div>
+                </div>
+                </div>
+                </div>
+        
+            <div class="card">
+                <div class="horizontal-card cart-card">
+                <img class="cart-img" src="/assets/images/saree.jpg" alt="saree">
+                <div class="horizontal-card-contents">
+                    <h3>Saree</h3>
+                    <h4 class="t-cntr">Price: Rs.400</h4>
+                    <p class="t-cntr">Banarasi saree</p>
+                <div class="card-btn-container h-btn">
+                    <button class="btn green">Buy</button>
+                    <button class="btn outline-red">Wishlist</button>
+                </div>
+                </div>
+                </div>
+                </div>
+        
+                <div class="card summary-card">
+                <h4>Order summary</h4>
+                <h4>Grand total: 400</h4>
+                <p>Place order <a class="link" href="">Here</a></p>
+                </div>
+          </div> 
+      </div>
+</body>
+</html>
