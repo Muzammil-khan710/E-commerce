@@ -39,6 +39,8 @@
   
 .sign-up-link {
     margin-left: 4rem;
-    text-decoration: none;
 }
-  
+
+.login-link {
+    margin-left: 1rem;
+}
