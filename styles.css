@@ -72,3 +72,10 @@
 .h-btn {
     gap: 1rem;
 }
+
+.img-link-cont {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
